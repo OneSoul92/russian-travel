@@ -1,0 +1,15 @@
+.lead__container {
+    margin-top: 64px;
+}
+
+@media screen and (max-width: 1140px) {
+    .lead__container {
+        margin-top: 56px;
+    } 
+}
+
+@media screen and (max-width: 568px) {
+    .lead__container {
+        margin-top: 40px;
+    }
+} 

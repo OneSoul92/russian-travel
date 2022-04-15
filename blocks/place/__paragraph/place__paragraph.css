@@ -10,28 +10,28 @@
 
 .place__paragraph:first-of-type {
     margin-top: 0;
-} 
+}
 
 @media screen and (max-width: 1140px) {
     .place__paragraph {
         max-width: 456px;
-        margin-top: 27px;  
-    }   
+        margin-top: 27px;
+    }
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 768px) {
     .place__paragraph {
         margin-top: 25px;
         font-size: 16px;
         line-height: 26.08px;
-    }   
+    }
 }
 
 @media screen and (max-width: 568px) {
     .place__paragraph {
-        max-width: 288px;
-    } 
-    
+        /* max-width: 288px; */
+    }
+
     /* .place__paragraph:first-of-type {
         margin-top: 32px;
     } */
